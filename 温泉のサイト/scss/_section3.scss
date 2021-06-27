@@ -1,0 +1,75 @@
+.main3 {
+    &-item {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding-top: 80px;
+
+        &:nth-child(2) {
+            flex-flow: row-reverse;
+        }
+    }
+
+    &-img {
+        width: 55%;
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+    }
+
+    &-text {
+        text-align: left;
+        padding-left: 85px;
+        &:nth-child(2) {
+            padding-right: 85px;
+        }
+
+        h2 {
+            padding-bottom: 35px;
+            font-size: 30px;
+        }
+
+        p {
+            padding-bottom: 65px;
+            font-size: 12px;
+        }
+
+        button {
+            border: 1px solid #707070;
+            font-size: 9px;
+            padding: 15px 35px;
+            background-color: #FFFFFF;
+
+            :hover {
+                cursor : pointer;
+            }
+        }
+
+    }
+  
+}
+
+.fadein {
+	opacity : 0;
+	transition: all 2.5s;
+	transform: translate(0,80px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.fadein.active {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.fadein-logo {
+	opacity : 0;
+	transition: all 3s;
+	transform: translate(0,150px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.fadein-logo.active-logo {
+	opacity: 1;
+	transform: translate(0,0);
+}

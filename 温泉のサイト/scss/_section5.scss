@@ -1,0 +1,109 @@
+///////共通ロゴ/////
+.main4__logo {
+    margin: 0 auto;
+    
+        img {
+            width: 33px;
+            height: 33px;
+            padding-top: 60px;
+        }
+    
+        h1{
+            font-size: 32px;
+            color: #000000;
+            padding-top: 10px;
+        }
+}
+
+////////////////////
+
+.main5 {
+    width: 12%;
+    margin: 0 auto;
+}
+
+.tab {
+    margin: 0 auto;
+    margin-right: 18px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        cursor: pointer;
+        list-style: none;
+        transition: .3s;
+        font-size: 14px;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    .active {
+        border-bottom: 1px solid #000000;
+        cursor: auto;
+    }
+}
+
+.area {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 40px;
+    
+    .show2 {
+        height: 310px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .area_bgi {
+        width: 100%;
+        padding: 6px 6px;
+
+        .area_item {
+            display: flex;
+            width: 100%;
+            background-color: #F6F6F6;
+            background-size: contain;
+
+            img {
+                width: 90px;
+                height: 80px;
+                padding: 2px 0;
+            }
+
+            .text {
+                padding-left: 20px;
+
+                .date {
+                    font-size: 12px;
+                    padding-top: 2px;
+                }
+
+                .text2 {
+                    font-size: 14px;
+                }
+            }
+        }
+    
+    }
+}
+
+.area ul {
+    display: none;
+  }
+  .area ul.show {
+    display: block;
+  }
+
+  .fadein3 {
+	opacity : 0;
+	transition: all 3s;
+	transform: translate(0,80px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.fadein3.active3 {
+	opacity: 1;
+	transform: translate(0,0);
+}
+

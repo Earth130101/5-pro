@@ -1,0 +1,62 @@
+body,ul,h1,h2,h3,h4,p {
+    font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import"header";
+@import"section";
+@import"section2";
+@import"section3";
+@import"section4";
+@import"section5";
+@import"section6";
+@import"footer";
+
+
+//////////////
+///under//////
+//////////////
+
+@import"underheader";
+@import"undersection1";
+@import"undersection2";
+@import"undersection2cook";
+@import"undersection2onsen";
+
+
+
+//////jq///////
+
+.fadein {
+	opacity : 0;
+	transition: all 2.5s;
+	transform: translate(0,50px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.fadein.active {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.fadein-logo {
+	opacity : 0;
+	transition: all 3s;
+	transform: translate(0,70px);
+}
+/*アニメーション要素までスクロールした時のスタイル*/
+.fadein-logo.active-logo {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+
+
+
+

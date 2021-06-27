@@ -1,0 +1,19 @@
+.under {
+    &__section1 {
+
+        .under__bgi {
+            z-index:10;
+            width: 100%;
+            height:450px;
+            background-size: cover;
+            position: relative;
+
+            h1 {
+                color: #ffffff;
+                position: absolute;
+                top: 50%;
+                left: 47%;
+            }
+        }
+    }
+}

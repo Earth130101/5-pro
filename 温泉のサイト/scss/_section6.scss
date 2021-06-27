@@ -1,0 +1,49 @@
+.acsess {
+    &__bgi {
+        background-image: url(../Ex-sozai/bg.jpg);
+        background-size: cover;
+        height: 1000px;
+    }
+
+    &__inner {
+        display: flex;
+        padding-top: 30px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    &__img {
+        padding-left:80px;
+
+        img {
+            width: 468px;
+            height: 300px;
+            
+        }
+    }
+
+    &__text {
+        padding-left: 50px;
+
+        h2 {
+            font-size: 12px;
+            font-weight: bold;
+            padding-top: 15px;
+        }
+
+        p {
+            font-size: 12px;
+            padding-top: 10px;
+        }
+    }
+
+    &__map {
+        margin: 0 auto;
+        padding-top: 30px;
+        width: 600px;
+    }
+}
+
+.section6 {
+    padding-top: 80px;
+}

@@ -1,0 +1,100 @@
+.room {
+    .under {
+        &__section2 {
+            width: 900px;
+            margin: 0 auto;
+        }
+    
+        &__maintext {
+            text-align: left;
+            font-size: 14px;
+            padding-top: 40px; 
+            
+            a {
+                color: black;
+            }
+        }
+    
+        &__text  {
+            text-align: center;
+            font-size: 16px;
+            padding-top: 60px;
+        }
+    
+        &__item {
+            display: flex;
+            padding-top: 60px;
+    
+            &:nth-child(2) {
+                flex-flow: row-reverse;
+            }
+    
+            .under__img {
+                position: relative;
+                z-index: 5;
+    
+                img {
+                    width: 405px;
+                    height: 250px;
+                }
+            }
+    
+            .under__sentence {
+                background-image: url(../Ex-sozai/bg.jpg);
+                background-size: 727px;
+                height: 285px;
+                position: absolute;
+                top: 840px;
+                left: 580px;
+                padding-left: 125px;
+    
+                h2 {
+                    font-size: 20px;
+                    padding-top: 35px;
+                    padding-right: 45px;
+                }
+    
+                p {
+                    font-size: 11px;
+                    padding-top: 30px;
+                    padding-right: 30px;
+                }
+                
+            }
+    
+            &:nth-child(2) {
+                padding-top: 160px;
+    
+                .under__sentence {
+                    top: 1250px;
+                    left: 224px;
+                    padding-left: 70px;
+                    padding-right: 110px;
+        
+                    h2 {
+                        font-size: 20px;
+                    }
+        
+                    p {
+                        font-size: 11px;
+                    }
+                    
+                }
+            }
+    
+            &:nth-child(3) {
+                padding-top: 140px;
+                padding-bottom: 200px;
+    
+                .under__sentence {
+                    top: 1650px;
+                    left: 580px;
+                    padding-right: 50px;
+                }
+            }
+    
+            
+        }
+    
+    }
+}
